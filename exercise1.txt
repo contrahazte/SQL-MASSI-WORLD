@@ -1,0 +1,10 @@
+CREATE TABLE book(
+  book_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+  title Text, 
+  author Text,
+  genre Text,
+  published_year Date, 
+  isbn Numeric ,
+  price Numeric , 
+  rating Numeric, 
+  stock_count Numeric)
