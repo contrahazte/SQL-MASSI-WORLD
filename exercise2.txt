@@ -1,0 +1,9 @@
+ALTER TABLE book
+  Add COLUMN publisher Text
+
+
+////
+ALTER TABLE book
+Add COLUMN number_pages Numeric
+
+  
