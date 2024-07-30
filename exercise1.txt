@@ -1,3 +1,13 @@
+Para crear una tabla usamos la palabra clave CREATE TABLE 
+-- SERIAL:genera automáticamente números enteros secuenciales únicos para las claves primarias,
+-- VARCHAR: RESTRINGE LA CANTIDAD MAXIMA DE CARACTERES,
+-- INTEGER:NÚMERO ENTERO,
+-- DECIMAL(6,2):PRIMER NUMERO CANT DE NUM TOTALES , SEGUNDO NUMERO CANT DE NUM DESPUES DE LA COMA,
+-- NOT NULL: NO PUEDE ESTAR EL CAMPO VACIO
+-- UNIQUE: NO PUEDE REPETIRSE EL VALOR,
+-- CHECK:restricción o limitación que deben cumplir los datos para que sean considerados válidos
+
+
 CREATE TABLE IF NOT EXISTS Books (
 	 book_id SERIAL PRIMARY KEY,
 	title VARCHAR(100) NOT NULL,
