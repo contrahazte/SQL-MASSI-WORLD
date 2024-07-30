@@ -3,7 +3,10 @@ ALTER TABLE book
 
 
 ////
-ALTER TABLE book
-Add COLUMN number_pages Numeric
+ALTER TABLE books
+ADD COLUMN pages INTEGER
+
+
+
 
   
