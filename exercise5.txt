@@ -2,4 +2,4 @@ CREATE ROLE data_analyst;
 
  GRANT SELECT ON EXERCISES  TO data_analyst;
 
-GRANT data_analyst TO 'Carlos'@'localhost';
+GRANT data_analyst TO 'Martin'@'localhost';
