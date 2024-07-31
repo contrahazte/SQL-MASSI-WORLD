@@ -1,0 +1,1 @@
+ REVOQUE SELECT ON EXERCISES TO 'Martin'@'localhost'
